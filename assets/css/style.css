@@ -554,7 +554,7 @@ body {
 
 .featured-game-card .card-content-overlay {
   inset: 0;
-  background-color: aqua;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -566,7 +566,7 @@ body {
 .featured-game-card .card-title { margin-block-end: 5px; }
 
 .featured-game-card .card-meta {
-  color: white;
+  color: aqua;
   font-size: var(--fs-11);
   font-weight: var(--fw-500);
   text-transform: uppercase;
