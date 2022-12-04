@@ -531,10 +531,10 @@ body {
   #FEATURED GAME
 \*-----------------------------------*/
 
-.featured-game { background-color: white; }
+.featured-game { background-color: black; }
 
 .featured-game .section-title {
-  color: white;
+  color: aqua;
   margin-block-end: 90px;
 }
 
