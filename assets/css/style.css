@@ -126,7 +126,7 @@ html {
 }
 
 body {
-  background-color:blue;
+  background-color:aqua;
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -148,7 +148,7 @@ body {
 .h1,
 .h2,
 .h3 {
-  color: var(--white);
+  color: white;
   font-family: var(--ff-oxanium);
   font-weight: var(--fw-800);
   line-height: 1;
@@ -168,12 +168,12 @@ body {
 
 :is(.h1, .h2, .h3, .card-price) .span {
   display: inline-block;
-  color: var(--marigold);
+  color: gold;
 }
 
 .btn {
   margin-inline: auto;
-  color: var(--eerie-black-1);
+  color: black;
   font-size: var(--fs-8);
   text-transform: uppercase;
   font-weight: var(--fw-700);
@@ -191,7 +191,7 @@ body {
   position: absolute;
   inset: 0;
   transform: skewX(var(--skewX, -16deg));
-  background-color:blue;
+  background-color:aqua;
   z-index: -1;
 }
 
@@ -203,7 +203,7 @@ body {
   left: calc(100% + 8px);
   width: 5px;
   transform: skewX(-16deg) translateX(var(--translateX, 0));
-  background-color:blue;
+  background-color:aqua;
   transition: var(--transition);
 }
 
@@ -219,9 +219,9 @@ body {
 
 .has-scrollbar::-webkit-scrollbar { height: 10px; }
 
-.has-scrollbar::-webkit-scrollbar-track { outline: 3px solid var(--marigold); }
+.has-scrollbar::-webkit-scrollbar-track { outline: 3px solid gold; }
 
-.has-scrollbar::-webkit-scrollbar-thumb { background-color:blue; }
+.has-scrollbar::-webkit-scrollbar-thumb { background-color:aqua; }
 
 .has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 40px); }
 
@@ -264,7 +264,7 @@ body {
 
 .card-badge {
   min-height: 30px;
-  color: var(--eerie-black-1);
+  color: black;
   font-size: var(--fs-11);
   font-weight: var(--fw-700);
   text-transform: uppercase;
@@ -334,7 +334,7 @@ body {
 }
 
 .logo {
-  color: var(--white);
+  color: white;
   font-family: var(--ff-oxanium);
   font-size: 3rem;
   font-weight: var(--fw-800);
@@ -347,7 +347,7 @@ body {
 }
 
 .search-btn {
-  color: yellow;
+  color: gold;
   padding: 13px;
   box-shadow: var(--shadow-1);
   border-radius: 4px;
@@ -356,9 +356,9 @@ body {
 .search-btn ion-icon { --ionicon-stroke-width: 80px; }
 
 .nav-toggle-btn {
-  color: var(--white);
+  color: white;
   font-size: 30px;
-  border: 1px solid var(--white);
+  border: 1px solid white;
   padding: 4px;
 }
 
@@ -369,7 +369,7 @@ body {
 .nav-toggle-btn.active .close { display: block; }
 
 .navbar {
-  background-color: blue;
+  background-color: aqua;
   color: white;
   position: absolute;
   top: 100%;
@@ -388,7 +388,7 @@ body {
   transition-duration: 0.5s;
 }
 
-.navbar-item:not(:last-child) { border-block-end: 1px solid var(--white_15); }
+.navbar-item:not(:last-child) { border-block-end: 1px solid white; }
 
 .navbar-link {
   padding: 10px 25px;
@@ -406,7 +406,7 @@ body {
 \*-----------------------------------*/
 
 .search-container {
-  background-color: blue;
+  background-color: aqua;
   position: fixed;
   inset: 0;
   display: flex;
@@ -431,16 +431,16 @@ body {
 }
 
 .search-container .search-field {
-  color: var(--white);
+  color: white;
   font-size: 2rem;
   padding: 20px;
   padding-inline-end: 60px;
-  border-block-end: 3px solid var(--white_10);
+  border-block-end: 3px solid white;
   outline: none;
   transition: var(--transition);
 }
 
-.search-container .search-field:focus { border-color: var(--light-gray-2); }
+.search-container .search-field:focus { border-color: grey; }
 
 .search-container .search-field::-webkit-search-cancel-button { display: none; }
 
@@ -450,7 +450,7 @@ body {
   right: 20px;
   transform: translateY(-50%);
   font-size: 25px;
-  color: yellow;
+  color: gold;
 }
 
 .search-container .search-submit ion-icon { --ionicon-stroke-width: 70px; }
@@ -583,10 +583,10 @@ body {
   transition: var(--transition);
 }
 
-.latest-game-card .card-title:is(:hover, :focus) { color: var(--marigold); }
+.latest-game-card .card-title:is(:hover, :focus) { color: gold; }
 
 .latest-game-card .card-price {
-  color: var(--silver);
+  color: white;
   font-size: var(--fs-10);
   font-weight: var(--fw-600);
 }
@@ -628,7 +628,7 @@ body {
 
 .featured-game-card .card-content-overlay {
   inset: 0;
-  background-color: blue;
+  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -640,7 +640,7 @@ body {
 .featured-game-card .card-title { margin-block-end: 5px; }
 
 .featured-game-card .card-meta {
-  color: var(--white);
+  color: white;
   font-size: var(--fs-11);
   font-weight: var(--fw-500);
   text-transform: uppercase;
@@ -652,15 +652,15 @@ body {
 .featured-game-card .card-content .card-meta { color: var(--platinum); }
 
 .featured-game-card .card-content ion-icon {
-  color: var(--marigold);
+  color: gold;
   font-size: 14px;
 }
 
 .featured-game-card .card-icon { margin-block-end: 20px; }
 
-.featured-game-card .card-content-overlay .card-title { color: var(--xiketic); }
+.featured-game-card .card-content-overlay .card-title { color: gold; }
 
-.featured-game-card .card-content-overlay .span { color: var(--white); }
+.featured-game-card .card-content-overlay .span { color: white; }
 
 .featured-game-card:is(:hover, :focus-within) .card-content { opacity: 0; }
 
@@ -678,7 +678,7 @@ body {
   #BLOG
 \*-----------------------------------*/
 
-.blog { background-color: darkblue; }
+.blog { background-color: aqua; }
 
 .blog .section-title { color: white; }
 
@@ -713,12 +713,12 @@ body {
 
 .blog-card .card-meta-item ion-icon {
   --ionicon-stroke-width: 50px;
-  color: var(--marigold);
+  color: gold;
 }
 
 .blog-card .card-meta-item a.item-text { transition: var(--transition); }
 
-.blog-card .card-meta-item a.item-text:is(:hover, :focus) { color: var(--marigold); }
+.blog-card .card-meta-item a.item-text:is(:hover, :focus) { color: gold; }
 
 .blog-card .card-title {
   color: var(--raisin-black-1);
@@ -731,7 +731,7 @@ body {
   transition: var(--transition);
 }
 
-.blog-card .card-title:is(:hover, :focus) { color: var(--marigold); }
+.blog-card .card-title:is(:hover, :focus) { color: gold; }
 
 .blog-card .card-text {
   color: var(--dim-gray);
@@ -753,7 +753,7 @@ body {
 }
 
 .blog-card .card-link ion-icon,
-.blog-card .card-link:is(:hover, :focus) { color: var(--marigold); }
+.blog-card .card-link:is(:hover, :focus) { color: gold; }
 
 
 
@@ -766,7 +766,7 @@ body {
 .newsletter { margin-block-end: 80px; }
 
 .newsletter-card {
-  background-color: blue;
+  background-color: aqua;
   padding: 40px 15px;
   margin-block-start: -55px;
   border-radius: 80px;
@@ -787,7 +787,7 @@ body {
 
 .newsletter .email-field {
   font-size: var(--fs-9);
-  color: var(--white);
+  color: white;
   font-weight: var(--fw-500);
   padding: 17px 45px;
   padding-inline-end: 20px;
@@ -799,7 +799,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   left: 20px;
-  color: var(--blue);
+  color: aqua;
   --ionicon-stroke-width: 50px;
 }
 
@@ -824,9 +824,9 @@ body {
   transition: var(--transition);
 }
 
-.newsletter-btn:is(:hover, :focus) { color: var(--marigold); }
+.newsletter-btn:is(:hover, :focus) { color: gold; }
 
-.newsletter-btn:is(:hover, :focus)::before { background-color: blue; }
+.newsletter-btn:is(:hover, :focus)::before { background-color: aqua; }
 
 
 
@@ -871,7 +871,7 @@ body {
 
 .footer-list-title {
   position: relative;
-  color: var(--silver);
+  color: white;
   font-family: var(--ff-oxanium);
   text-transform: uppercase;
   font-weight: var(--fw-800);
@@ -886,7 +886,7 @@ body {
   left: 0;
   width: 30px;
   height: 3px;
-  background-color: yellow;
+  background-color: gold;
 }
 
 .footer-link {
@@ -898,7 +898,7 @@ body {
 }
 
 .footer-link:is(:hover, :focus) {
-  color: yellow;
+  color: gold;
   transform: translateX(5px);
 }
 
@@ -910,7 +910,7 @@ body {
 }
 
 .footer .social-link {
-  color: var(--white);
+  color: white;
   padding: 10px;
   border-radius: 2px;
 }
@@ -922,7 +922,7 @@ body {
   padding: 12px 20px;
   padding-inline-end: 60px;
   font-size: var(--fs-9);
-  color: var(--white);
+  color: white;
 }
 
 .footer-btn {
@@ -931,8 +931,8 @@ body {
   right: 0;
   height: 100%;
   width: 53px;
-  background-color: yellow;
-  color: var(--xiketic);
+  background-color: gold;
+  color: gold;
   display: grid;
   place-content: center;
 }
@@ -940,7 +940,7 @@ body {
 .footer-bottom-img { display: none; }
 
 .footer-bottom {
-  background-color: blue;
+  background-color: aqua;
   padding-block: 20px;
   text-align: center;
 }
@@ -953,7 +953,7 @@ body {
 
 .copyright-link {
   display: inline-block;
-  color: yellow;
+  color: gold;
 }
 
 
@@ -968,7 +968,7 @@ body {
   position: fixed;
   bottom: 10px;
   right: 15px;
-  background-color: var(--marigold);
+  background-color: gold;
   padding: 12px;
   z-index: 4;
   transition: var(--transition);
@@ -1018,7 +1018,7 @@ body {
   .cart-btn {
     display: block;
     position: relative;
-    color: var(--white);
+    color: white;
     font-size: 20px;
   }
 
@@ -1026,8 +1026,8 @@ body {
     position: absolute;
     top: -6px;
     right: -10px;
-    background-color: var(--marigold);
-    color: var(--eerie-black-1);
+    background-color: gold;
+    color: black;
     font-size: var(--fs-11);
     border-radius: 20px;
     padding: 3px 5px;
@@ -1235,7 +1235,7 @@ body {
 
   .countdown-text .span {
     display: inline-block;
-    color: var(--xiketic);
+    color: gold;
     font-size: 1.8rem;
     font-weight: var(--fw-700);
     padding: 10px 20px;
@@ -1252,7 +1252,7 @@ body {
   .header .social-list { gap: 10px; }
 
   .social-title {
-    color: var(--white);
+    color: white;
     font-family: var(--ff-oxanium);
     font-size: var(--fs-8);
     font-weight: var(--fw-700);
@@ -1260,7 +1260,7 @@ body {
 
   .header .social-link {
     background-color: var(--jet);
-    color: var(--marigold);
+    color: gold;
     font-size: var(--fs-9);
     padding: 8px 10px;
   }
@@ -1289,7 +1289,7 @@ body {
   .navbar-item:not(:last-child) { border-block-end: none; }
 
   .navbar-link {
-    color: var(--white);
+    color: white;
     font-family: var(--ff-oxanium);
     font-size: var(--fs-11);
     text-transform: uppercase;
@@ -1305,7 +1305,7 @@ body {
 
   .navbar-link:is(:hover, :focus) {
     background-color: transparent;
-    color: var(--xiketic);
+    color: gold;
   }
 
   .navbar-link:is(:hover, :focus)::before { opacity: 1; }
