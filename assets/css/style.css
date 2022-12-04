@@ -622,79 +622,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #LIVE MATCH
-\*-----------------------------------*/
-
-.live-match {
-  padding-block-start: 0;
-  overflow-x: hidden;
-}
-
-.live-match .section-title { margin-block-end: 90px; }
-
-.live-match-banner {
-  position: relative;
-  background-color: var(--light-gray-1);
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: var(--shadow-3);
-}
-
-.live-match-banner .play-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--marigold);
-  font-size: 60px;
-}
-
-.live-match-player {
-  position: relative;
-  padding-block-start: var(--section-padding);
-}
-
-.live-match-player::after {
-  content: "LIVE";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -40%);
-  font-size: 15rem;
-  font-weight: var(--fw-600);
-  color: var(--cultured-2);
-  z-index: -1;
-}
-
-.live-match-player .player { max-width: max-content; }
-
-.live-match-player .player-2 { margin-inline-start: auto; }
-
-.live-match-detail { margin-block: 50px; }
-
-.live-match-subtitle {
-  background-color: var(--marigold);
-  color: var(--white);
-  font-size: var(--fs-9);
-  text-transform: uppercase;
-  font-weight: var(--fw-700);
-  letter-spacing: 2px;
-  padding: 4px 20px;
-  max-width: max-content;
-  margin-inline: auto;
-  margin-block-end: 30px;
-}
-
-.live-match-time {
-  color: var(--xiketic);
-  font-size: var(--fs-1);
-  font-weight: var(--fw-700);
-  max-width: max-content;
-  margin-inline: auto;
-  line-height: 1;
-}
-
 
 
 
@@ -768,77 +695,6 @@ body {
 
 
 
-/*-----------------------------------*\
-  #SHOP
-\*-----------------------------------*/
-
-.shop {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.shop .section-text { margin-block: 50px 60px; }
-
-.shop .has-scrollbar {
-  margin-inline: -15px;
-  padding-inline: 15px;
-  scroll-padding-inline-start: 15px;
-}
-
-.shop-card {
-  box-shadow: var(--shadow-4);
-  height: 100%;
-}
-
-.shop-card .card-content {
-  position: relative;
-  padding: 25px;
-  padding-block-start: 40px;
-}
-
-.shop-card .card-badge {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.shop-card .h3 { font-size: var(--fs-7); }
-
-.shop-card .card-title {
-  transition: var(--transition);
-  margin-block-end: 10px;
-}
-
-.shop-card .card-title:is(:hover, :focus) { color: var(--marigold); }
-
-.shop-card .card-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--marigold);
-}
-
-.shop-card .card-price {
-  font-family: var(--ff-oxanium);
-  font-weight: var(--fw-800);
-}
-
-.shop-card .card-btn {
-  color: inherit;
-  font-size: 18px;
-  padding: 7px;
-  border: 1px solid var(--english-violet);
-  border-radius: 4px;
-  transition: var(--transition);
-}
-
-.shop-card .card-btn:is(:hover, :focus) {
-  background-color: var(--marigold);
-  color: var(--xiketic);
-  border-color: var(--marigold);
-}
 
 
 
@@ -1291,16 +1147,7 @@ body {
 
 
 
-  /**
-   * LIVE MATCH
-   */
-
-  .live-match-banner .play-btn { font-size: 120px; }
-
-  .live-match-player::after { font-size: 30rem; }
-
-
-
+ 
   /**
    * BLOG
    */
@@ -1525,23 +1372,6 @@ body {
 
 
 
-  /**
-   * LIVE MATCH
-   */
-
-  .live-match-banner {
-    max-width: 700px;
-    margin-inline: auto;
-  }
-
-  .live-match-player {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-  }
-
-  .live-match-detail { margin-block: 0; }
-
 
 
   /**
@@ -1634,17 +1464,7 @@ body {
 
 
 
-  /**
-   * LIVE MATCH
-   */
-
-  .section-wrapper::before { height: 72%; }
-
-  .live-match-banner { max-width: max-content; }
-
-  .live-match-player::after { font-size: 35rem; }
-
-
+ 
 
   /**
    * FEATURED GAME
@@ -1653,14 +1473,6 @@ body {
   .featured-game .has-scrollbar { padding-block-end: 0; }
 
   .featured-game .scrollbar-item { min-width: 25%; }
-
-
-
-  /**
-   * SHOP
-   */
-
-  .shop .has-scrollbar { padding-block-end: 15px; }
 
 
 
