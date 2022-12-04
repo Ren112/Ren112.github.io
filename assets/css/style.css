@@ -604,12 +604,12 @@ body {
   #BLOG
 \*-----------------------------------*/
 
-.blog { background-color: aqua; }
+.blog { background-color: black; }
 
-.blog .section-title { color: white; }
+.blog .section-title { color: aqua; }
 
 .blog .section-text {
-  color: black;
+  color: gold;
   margin-block: 50px 60px;
 }
 
