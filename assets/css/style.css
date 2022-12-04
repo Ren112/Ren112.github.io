@@ -191,7 +191,7 @@ body {
   position: absolute;
   inset: 0;
   transform: skewX(var(--skewX, -16deg));
-  background-color:gold;
+  background-color:aqua;
   z-index: -1;
 }
 
