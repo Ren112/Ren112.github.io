@@ -968,7 +968,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   left: 20px;
-  color: var(--marigold);
+  color: var(--blue);
   --ionicon-stroke-width: 50px;
 }
 
