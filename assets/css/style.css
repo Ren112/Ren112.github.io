@@ -203,7 +203,7 @@ body {
   left: calc(100% + 8px);
   width: 5px;
   transform: skewX(-16deg) translateX(var(--translateX, 0));
-  background-color:goldenrod;
+  background-color:aqua;
   transition: var(--transition);
 }
 
