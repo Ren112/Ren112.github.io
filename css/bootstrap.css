@@ -5076,7 +5076,7 @@ footer a {
 
 /*Gradients*/
 .bg-gradient {
-  background: linear-gradient(#ffff00, #ffff4d); }
+  background-color:ghostwhite; }
 
 /*Code Window*/
 .code-window {
