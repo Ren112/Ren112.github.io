@@ -126,7 +126,7 @@ html {
 }
 
 body {
-  background-color: black;
+  background-color: gray;
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -233,7 +233,7 @@ body {
 }
 
 .section-subtitle {
-  color: var(--silver);
+  color: white;
   font-size: var(--fs-9);
   font-weight: var(--fw-700);
   margin-block-end: 10px;
@@ -279,7 +279,7 @@ body {
 .w-100 { width: 100%; }
 
 .section-text {
-  color: var(--color, var(--light-gray-1));
+  color: white;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
   max-width: 65ch;
@@ -347,7 +347,7 @@ body {
 }
 
 .search-btn {
-  color: var(--marigold);
+  color: yellow;
   padding: 13px;
   box-shadow: var(--shadow-1);
   border-radius: 4px;
@@ -369,8 +369,8 @@ body {
 .nav-toggle-btn.active .close { display: block; }
 
 .navbar {
-  background-color: black;
-  color: var(--white);
+  background-color: blue;
+  color: white;
   position: absolute;
   top: 100%;
   right: 0;
@@ -406,7 +406,7 @@ body {
 \*-----------------------------------*/
 
 .search-container {
-  background-color: black;
+  background-color: blue;
   position: fixed;
   inset: 0;
   display: flex;
@@ -450,7 +450,7 @@ body {
   right: 20px;
   transform: translateY(-50%);
   font-size: 25px;
-  color: var(--marigold);
+  color: yellow;
 }
 
 .search-container .search-submit ion-icon { --ionicon-stroke-width: 70px; }
@@ -485,7 +485,7 @@ body {
 }
 
 .hero-subtitle {
-  color: var(--marigold);
+  color: white;
   font-size: var(--fs-6);
   font-weight: var(--fw-700);
   text-transform: uppercase;
@@ -494,7 +494,7 @@ body {
 .hero-title { margin-block: 15px 12px; }
 
 .hero-text {
-  color: var(--light-gray-2);
+  color: white;
   margin-block-end: 45px;
 }
 
@@ -608,7 +608,7 @@ body {
 .featured-game { background-color: yellow; }
 
 .featured-game .section-title {
-  color: var(--xiketic);
+  color: white;
   margin-block-end: 90px;
 }
 
@@ -628,7 +628,7 @@ body {
 
 .featured-game-card .card-content-overlay {
   inset: 0;
-  background-color: yellow;
+  background-color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -678,12 +678,12 @@ body {
   #BLOG
 \*-----------------------------------*/
 
-.blog { background-color: blue; }
+.blog { background-color: darkblue; }
 
-.blog .section-title { color: var(--xiketic); }
+.blog .section-title { color: white; }
 
 .blog .section-text {
-  color: var(--dim-gray);
+  color: black;
   margin-block: 50px 60px;
 }
 
