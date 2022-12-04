@@ -233,7 +233,7 @@ body {
 }
 
 .section-subtitle {
-  color: white;
+  color: aqua;
   font-size: var(--fs-9);
   font-weight: var(--fw-700);
   margin-block-end: 10px;
@@ -692,7 +692,7 @@ body {
 .newsletter { margin-block-end: 80px; }
 
 .newsletter-card {
-  background-color: aqua;
+  background-color: black;
   padding: 40px 15px;
   margin-block-start: -55px;
   border-radius: 80px;
@@ -844,11 +844,11 @@ body {
 .footer-newsletter { position: relative; }
 
 .footer-newsletter .email-field {
-  background-color: var(--raisin-black-4);
+  background-color: aqua;
   padding: 12px 20px;
   padding-inline-end: 60px;
   font-size: var(--fs-9);
-  color: white;
+  color: gold;
 }
 
 .footer-btn {
@@ -866,7 +866,7 @@ body {
 .footer-bottom-img { display: none; }
 
 .footer-bottom {
-  background-color: aqua;
+  background-color: white;
   padding-block: 20px;
   text-align: center;
 }
