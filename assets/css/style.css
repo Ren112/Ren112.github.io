@@ -126,7 +126,7 @@ html {
 }
 
 body {
-  background-color: gray;
+  background-color:blue;
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -605,7 +605,7 @@ body {
   #FEATURED GAME
 \*-----------------------------------*/
 
-.featured-game { background-color: yellow; }
+.featured-game { background-color: white; }
 
 .featured-game .section-title {
   color: white;
