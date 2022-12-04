@@ -126,7 +126,7 @@ html {
 }
 
 body {
-  background-color:aqua;
+  background-color:black;
   font-size: 1.6rem;
   line-height: 1.5;
 }
@@ -334,7 +334,7 @@ body {
 }
 
 .logo {
-  color: white;
+  color: gold;
   font-family: var(--ff-oxanium);
   font-size: 3rem;
   font-weight: var(--fw-800);
@@ -369,8 +369,8 @@ body {
 .nav-toggle-btn.active .close { display: block; }
 
 .navbar {
-  background-color: aqua;
-  color: white;
+  background-color: black;
+  color: gold;
   position: absolute;
   top: 100%;
   right: 0;
@@ -586,7 +586,7 @@ body {
 
 .featured-game-card .card-content-overlay .card-title { color: gold; }
 
-.featured-game-card .card-content-overlay .span { color: white; }
+.featured-game-card .card-content-overlay .span { color: black; }
 
 .featured-game-card:is(:hover, :focus-within) .card-content { opacity: 0; }
 
@@ -778,6 +778,7 @@ body {
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
   line-height: 1.8;
+  color:gold;
 }
 
 .footer-text { margin-block-end: 15px; }
@@ -788,11 +789,13 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 10px;
+  color:gold;
 }
 
 .contact-icon {
   margin-block-start: 3px;
   font-size: 17px;
+  color:gold;
 }
 
 .footer-list-title {
